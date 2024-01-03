@@ -104,8 +104,8 @@ const index = () => {
         <ScrollView horizontal showsHorizontalScrollIndicator={false}>
           <View style={styles.recipeCards}>
             {
-              data.map((item, index) => (
-                <RecipeCard key={index} item={item} />
+              data.map((item) => (
+                <RecipeCard key={item.id} item={item} />
               ))
             }
           </View>
@@ -115,8 +115,8 @@ const index = () => {
           <Text style={styles.listTitleFeed}>Today Special</Text>
           <View style={{ marginTop: 16, display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-between',}}>
             {
-              data.map((item, index) => (
-                <ProfileCard key={index} item={item} />
+              data.map((item) => (
+                <ProfileCard key={item.id} item={item} />
               ))
             }
           </View>

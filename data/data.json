@@ -1,78 +1,498 @@
 [
-    {
-      "id": "1",
-      "title": "Item 1",
-      "image": "https://via.placeholder.com/150"
-    },
-    {
-      "id": "2",
-      "title": "Item 2",
-      "image": "https://via.placeholder.com/150"
-    },
-    {
-      "id": "3",
-      "title": "Item 3",
-      "image": "https://via.placeholder.com/150"
-    },
-    {
-      "id": "4",
-      "title": "Item 4",
-      "image": "https://via.placeholder.com/150"
-    },
-    {
-      "id": "5",
-      "title": "Item 5",
-      "image": "https://via.placeholder.com/150"
-    },
-    {
-      "id": "6",
-      "title": "Item 1",
-      "image": "https://via.placeholder.com/150"
-    },
-    {
-      "id": "7",
-      "title": "Item 2",
-      "image": "https://via.placeholder.com/150"
-    },
-    {
-      "id": "8",
-      "title": "Item 3",
-      "image": "https://via.placeholder.com/150"
-    },
-    {
-      "id": "9",
-      "title": "Item 4",
-      "image": "https://via.placeholder.com/150"
-    },
-    {
-      "id": "10",
-      "title": "Item 5",
-      "image": "https://via.placeholder.com/150"
-    },
-    {
-      "id": "11",
-      "title": "Item 1",
-      "image": "https://via.placeholder.com/150"
-    },
-    {
-      "id": "12",
-      "title": "Item 2",
-      "image": "https://via.placeholder.com/150"
-    },
-    {
-      "id": "13",
-      "title": "Item 3",
-      "image": "https://via.placeholder.com/150"
-    },
-    {
-      "id": "14",
-      "title": "Item 4",
-      "image": "https://via.placeholder.com/150"
-    },
-    {
-      "id": "15",
-      "title": "Item 5",
-      "image": "https://via.placeholder.com/150"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "Description": "A classic Italian pasta dish made with spaghetti, eggs, grated Pecorino Romano cheese, pancetta, and black pepper. The eggs create a creamy sauce that coats the pasta beautifully, and the addition of pancetta adds a savory, salty flavor.",
+    "Ingredients": [
+      "Spaghetti",
+      "Eggs",
+      "Pecorino Romano cheese (or Parmesan)",
+      "Pancetta or guanciale (cured pork cheek)",
+      "Black pepper"
+  ],
+    "recipe_title": "Spaghetti Carbonara",
+    "rating": 4.5,
+    "time_taken_minutes": 30,
+    "number_of_views": 1500,
+    "name_posted": "Chef John",
+    "username_posted": "chef_john",
+    "category": "Pasta",
+    "image_url": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhvdCUyMGdpcmxzJTIwcHJvZmlsZSUyMGltYWdlcyUyMGRwfGVufDB8fDB8fHwy", 
+    "public_accessible_image_url": "https://images.unsplash.com/photo-1588013273468-315fd88ea34c?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8U3BhZ2hldHRpJTIwQ2FyYm9uYXJhfGVufDB8fDB8fHww"
+  },
+  {
+    "id": 2,
+    "Description": "A creamy pasta dish featuring tender chicken pieces, cooked fettuccine pasta, and a rich Alfredo sauce made with butter, heavy cream, and Parmesan cheese. It's a comforting and indulgent meal loved by many.",
+    "Ingredients": [
+      "Chicken breasts/thighs",
+      "Fettuccine pasta",
+      "Butter",
+      "Heavy cream",
+      "Parmesan cheese"
+  ],
+    "recipe_title": "Chicken Alfredo",
+    "rating": 4.8,
+    "time_taken_minutes": 45,
+    "number_of_views": 2200,
+    "name_posted": "Foodie Chef",
+    "username_posted": "foodie_chef",
+    "category": "Poultry",
+    "image_url": "https://images.unsplash.com/photo-1502323777036-f29e3972d82f?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aG90JTIwZ2lybHMlMjBwcm9maWxlJTIwaW1hZ2VzJTIwZHB8ZW58MHx8MHx8fDI%3D",
+    "public_accessible_image_url": "https://images.unsplash.com/photo-1645112411341-6c4fd023714a?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q2hpY2tlbiUyMEFsZnJlZG98ZW58MHx8MHx8fDA%3D"
+  },
+  {
+    "id": 3,
+    "Description": " A quick and flavorful dish comprising various vegetables stir-fried in a wok or skillet with soy sauce, garlic, ginger, and other seasonings. It's a versatile dish where you can use your choice of veggies like bell peppers, broccoli, carrots, and snow peas.",
+    "Ingredients": [
+      "Mixed vegetables (bell peppers, broccoli, carrots, etc.)",
+      "Soy sauce",
+      "Garlic",
+      "Ginger",
+      "Cooking oil"
+  ],
+    "recipe_title": "Vegetable Stir Fry",
+    "rating": 4.3,
+    "time_taken_minutes": 25,
+    "number_of_views": 1800,
+    "name_posted": "Veggie Cuisine",
+    "username_posted": "veggie_cuisine",
+    "category": "Vegetarian",
+    "image_url": "https://images.unsplash.com/photo-1499557354967-2b2d8910bcca?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aG90JTIwZ2lybHMlMjBwcm9maWxlJTIwaW1hZ2VzJTIwZHB8ZW58MHx8MHx8fDI%3D",
+    "public_accessible_image_url": "https://images.unsplash.com/photo-1516901121982-4ba280115a36?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8VmVnZXRhYmxlJTIwU3RpciUyMEZyeXxlbnwwfHwwfHx8MA%3D%3D"
+  },
+  {
+    "id": 4,
+    "Description": " Classic American cookies filled with chocolate chips, providing a perfect balance of sweetness and texture. These cookies are made with flour, butter, sugar, eggs, vanilla extract, and, of course, chocolate chips.",
+    "Ingredients": [
+      "All-purpose flour",
+      "Butter",
+      "Granulated sugar",
+      "Brown sugar",
+      "Eggs",
+      "Vanilla extract",
+      "Chocolate chips"
+  ],
+    "recipe_title": "Chocolate Chip Cookies",
+    "rating": 4.9,
+    "time_taken_minutes": 20,
+    "number_of_views": 3000,
+    "name_posted": "Baking Lover",
+    "username_posted": "baking_lover",
+    "category": "Dessert",
+    "image_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvdCUyMGdpcmxzJTIwcHJvZmlsZSUyMGltYWdlcyUyMGRwfGVufDB8fDB8fHwy",
+    "public_accessible_image_url": "https://plus.unsplash.com/premium_photo-1670253258590-9bfea76faacd?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q2hvY29sYXRlJTIwQ2hpcCUyMENvb2tpZXN8ZW58MHx8MHx8fDA%3D"
+  },
+  {
+    "id": 5,
+    "Description": "Grilled salmon is a delightful dish that showcases the natural flavors of salmon with a simple preparation. The fish is seasoned with herbs, lemon, salt, and pepper, then grilled until it's perfectly cooked, resulting in a deliciously flaky texture.",
+    "Ingredients": [
+      "Salmon fillets",
+      "Olive oil",
+      "Lemon",
+      "Fresh herbs (like dill or parsley)",
+      "Salt",
+      "Pepper"
+  ],
+    "recipe_title": "Grilled Salmon",
+    "rating": 4.7,
+    "time_taken_minutes": 35,
+    "number_of_views": 2500,
+    "name_posted": "Seafood Master",
+    "username_posted": "seafood_master",
+    "category": "Seafood",
+    "image_url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aG90JTIwZ2lybHMlMjBwcm9maWxlJTIwaW1hZ2VzJTIwZHB8ZW58MHx8MHx8fDI%3D",
+    "public_accessible_image_url": "https://plus.unsplash.com/premium_photo-1695658519389-e966814ab290?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8R3JpbGxlZCUyMFNhbG1vbnxlbnwwfHwwfHx8MA%3D%3D"
+  },
+  {
+    "id": 6,
+    "Description": "Mushroom risotto is a creamy Italian rice dish made by slowly cooking Arborio rice in broth and adding sautéed mushrooms, onions, garlic, white wine, and Parmesan cheese. It's a comforting and flavorful dish with a luxurious texture.",
+    "Ingredients": [
+      "Arborio rice",
+      "Mushrooms (such as cremini or porcini)",
+      "Onion",
+      "Garlic",
+      "White wine",
+      "Vegetable or chicken broth",
+      "Parmesan cheese",
+      "Butter",
+      "Olive oil",
+      "Fresh herbs (optional)"
+  ],
+    "recipe_title": "Mushroom Risotto",
+    "rating": 4.6,
+    "time_taken_minutes": 40,
+    "number_of_views": 2100,
+    "name_posted": "Risotto Kitchen",
+    "username_posted": "risotto_kitchen",
+    "category": "Rice Dishes",
+    "image_url": "https://images.unsplash.com/photo-1517630800677-932d836ab680?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGhvdCUyMGdpcmxzJTIwcHJvZmlsZSUyMGltYWdlcyUyMGRwfGVufDB8fDB8fHwy",
+    "public_accessible_image_url": "https://images.unsplash.com/photo-1633964913295-ceb43826e7c9?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TXVzaHJvb20lMjBSaXNvdHRvfGVufDB8fDB8fHww"
+  },
+  {
+    "id": 7,
+    "Description": "Homemade pizza allows for endless creativity. Typically, it involves making pizza dough from flour, yeast, water, and olive oil, topped with tomato sauce, cheese, and various toppings such as pepperoni, mushrooms, bell peppers, or any desired ingredients before baking.",
+    "Ingredients": [
+      "Pizza dough (flour, yeast, water, olive oil)",
+      "Tomato sauce",
+      "Mozzarella cheese",
+      "Toppings (pepperoni, mushrooms, bell peppers, etc.)",
+      "Olive oil",
+      "Herbs (like oregano or basil)"
+  ],
+    "recipe_title": "Homemade Pizza",
+    "rating": 4.8,
+    "time_taken_minutes": 40,
+    "number_of_views": 2800,
+    "name_posted": "Pizza Mania",
+    "username_posted": "pizza_mania",
+    "category": "Pizza",
+    "image_url": "https://images.unsplash.com/photo-1511469054436-c7dedf24c66b?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90JTIwZ2lybHMlMjBpbWFnZXN8ZW58MHx8MHx8fDI%3D",
+    "public_accessible_image_url": "https://images.unsplash.com/photo-1595854341625-f33ee10dbf94?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SG9tZW1hZGUlMjBQaXp6YXxlbnwwfHwwfHx8MA%3D%3D"
+  },
+  {
+    "id": 8,
+    "Description": "Taco Tuesday often includes a variety of fillings like seasoned ground beef or chicken, served in tortillas along with toppings such as shredded lettuce, diced tomatoes, cheese, sour cream, and salsa. It's a fun and customizable meal.",
+    "Ingredients": [
+      "Ground beef or chicken",
+      "Taco seasoning",
+      "Tortillas (corn or flour)",
+      "Lettuce",
+      "Tomatoes",
+      "Cheese (cheddar or Mexican blend)",
+      "Sour cream",
+      "Salsa"
+  ],
+    "recipe_title": "Taco Tuesday",
+    "rating": 4.6,
+    "time_taken_minutes": 35,
+    "number_of_views": 1900,
+    "name_posted": "Taco Enthusiast",
+    "username_posted": "taco_enthusiast",
+    "category": "Mexican",
+    "image_url": "https://images.unsplash.com/photo-1601821326018-d949a54b6402?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aG90JTIwZ2lybHMlMjBpbWFnZXN8ZW58MHx8MHx8fDI%3D",
+    "public_accessible_image_url": "https://images.unsplash.com/photo-1599974579688-8dbdd335c77f?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8VGFjbyUyMFR1ZXNkYXl8ZW58MHx8MHx8fDA%3D"
+  },
+  {
+    "id": 9,
+    "Description": "Beef Stroganoff is a hearty dish consisting of sautéed strips of beef, mushrooms, and onions cooked in a creamy sauce made with sour cream, beef broth, and sometimes a touch of mustard or white wine, served over noodles or rice.",
+    "Ingredients": [
+      "Beef strips (sirloin or tenderloin)",
+      "Mushrooms",
+      "Onion",
+      "Sour cream",
+      "Beef broth",
+      "Butter",
+      "Flour",
+      "Mustard or white wine (optional)",
+      "Noodles or rice"
+  ],
+    "recipe_title": "Beef Stroganoff",
+    "rating": 4.7,
+    "time_taken_minutes": 50,
+    "number_of_views": 2300,
+    "name_posted": "Comfort Foodie",
+    "username_posted": "comfort_foodie",
+    "category": "Beef",
+    "image_url": "https://images.unsplash.com/photo-1620400975054-4676c969e6c4?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aG90JTIwZ2lybHMlMjBpbWFnZXN8ZW58MHx8MHx8fDI%3D",
+    "public_accessible_image_url": "https://images.unsplash.com/photo-1668724776334-548671c13751?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8QmVlZiUyMFN0cm9nYW5vZmZ8ZW58MHx8MHx8fDA%3D"
+  },
+  {
+    "id": 10,
+    "Description": "Avocado toast is a trendy and nutritious dish featuring mashed avocado spread on toasted bread. It's often seasoned with salt, pepper, and various toppings such as sliced tomatoes, red pepper flakes, poached eggs, or herbs, making it a versatile and satisfying breakfast or snack.",
+    "Ingredients": [
+      "Ripe avocados",
+      "Bread (sourdough, whole grain, or preferred type)",
+      "Salt",
+      "Pepper",
+      "Optional toppings: sliced tomatoes, red pepper flakes, poached eggs, herbs (like cilantro or basil)"
+  ],
+    "recipe_title": "Avocado Toast",
+    "rating": 4.4,
+    "time_taken_minutes": 15,
+    "number_of_views": 2600,
+    "name_posted": "Avocado Fanatic",
+    "username_posted": "avocado_fanatic",
+    "category": "Breakfast",
+    "image_url": "https://images.unsplash.com/photo-1602081871114-2bad7b9b6ba8?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhvdCUyMGdpcmxzJTIwaW1hZ2VzfGVufDB8fDB8fHwy",
+    "public_accessible_image_url": "https://images.unsplash.com/photo-1588137378633-dea1336ce1e2?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8QXZvY2FkbyUyMFRvYXN0fGVufDB8fDB8fHww"
+  },
+  {
+    "id": 11,
+    "Description": "Vegetable lasagna is a flavorful and comforting dish made with layers of lasagna noodles, tomato sauce, a mixture of assorted vegetables (such as spinach, zucchini, bell peppers), ricotta or cottage cheese, mozzarella cheese, and sometimes a sprinkle of Parmesan cheese.",
+    "Ingredients": [
+      "Lasagna noodles",
+      "Tomato sauce",
+      "Mixed vegetables (spinach, zucchini, bell peppers, etc.)",
+      "Ricotta or cottage cheese",
+      "Mozzarella cheese",
+      "Parmesan cheese",
+      "Olive oil",
+      "Garlic",
+      "Herbs (such as basil or oregano)"
+  ],
+    "recipe_title": "Vegetable Lasagna",
+    "rating": 4.5,
+    "time_taken_minutes": 55,
+    "number_of_views": 2000,
+    "name_posted": "Lasagna Lover",
+    "username_posted": "lasagna_lover",
+    "category": "Italian",
+    "image_url": "https://images.unsplash.com/photo-1535418193292-403b64871181?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGhvdCUyMGdpcmxzJTIwaW1hZ2VzfGVufDB8fDB8fHwy",
+    "public_accessible_image_url": "https://images.unsplash.com/photo-1586197122509-651125c9605a?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8VmVnZXRhYmxlJTIwTGFzYWduYXxlbnwwfHwwfHx8MA%3D%3D"
+  },
+  {
+    "id": 12,
+    "Description": "Sushi rolls, also known as maki rolls, consist of sushi rice and various fillings wrapped in seaweed (nori) and sliced into bite-sized pieces. Fillings can include raw or cooked fish, vegetables, avocado, cucumber, and condiments like soy sauce, wasabi, and pickled ginger.",
+    "Ingredients": [
+      "Sushi rice",
+      "Nori (seaweed sheets)",
+      "Fillings (raw or cooked fish, avocado, cucumber, crab, etc.)",
+      "Rice vinegar",
+      "Sugar",
+      "Salt",
+      "Soy sauce",
+      "Wasabi",
+      "Pickled ginger"
+  ],
+    "recipe_title": "Sushi Rolls",
+    "rating": 4.9,
+    "time_taken_minutes": 40,
+    "number_of_views": 2800,
+    "name_posted": "Sushi Master",
+    "username_posted": "sushi_master",
+    "category": "Japanese",
+    "image_url": "https://images.unsplash.com/photo-1681500920181-0aff411f8cab?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c2V4eSUyMGdpcmxzJTIwaW1hZ2VzfGVufDB8fDB8fHwy",
+    "public_accessible_image_url": "https://plus.unsplash.com/premium_photo-1668143360807-4e654dc5bae0?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8U3VzaGklMjBSb2xsc3xlbnwwfHwwfHx8MA%3D%3D"
+  },
+  {
+    "id": 13,
+    "Description": "Blueberry pancakes are a delightful breakfast treat made by adding fresh or frozen blueberries to pancake batter. They're fluffy, slightly sweet, and bursting with juicy blueberries.",
+    "Ingredients": [
+      "Pancake mix or ingredients for homemade pancakes (flour, baking powder, sugar, eggs, milk, butter)",
+      "Fresh or frozen blueberries",
+      "Maple syrup (for serving, optional)",
+      "Butter (for cooking)"
+  ],
+    "recipe_title": "Blueberry Pancakes",
+    "rating": 4.8,
+    "time_taken_minutes": 30,
+    "number_of_views": 2500,
+    "name_posted": "Pancake Chef",
+    "username_posted": "pancake_chef",
+    "category": "Breakfast",
+    "image_url": "https://images.unsplash.com/photo-1456412684996-31507d7d17b6?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHNleHklMjBnaXJscyUyMGltYWdlc3xlbnwwfHwwfHx8Mg%3D%3D",
+    "public_accessible_image_url": "https://plus.unsplash.com/premium_photo-1663011464491-8c5cad951b9a?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Qmx1ZWJlcnJ5JTIwUGFuY2FrZXN8ZW58MHx8MHx8fDA%3D"
+  },
+  {
+    "id": 14,
+    "Description": "BBQ ribs are tender, flavorful ribs cooked low and slow, often prepared using a barbecue rub or marinade and finished with a barbecue sauce. They can be cooked in the oven, on a grill, or in a smoker.",
+    "Ingredients": [
+      "Pork or beef ribs",
+      "BBQ rub or marinade (paprika, brown sugar, garlic powder, onion powder, etc.)",
+      "BBQ sauce",
+      "Salt",
+      "Pepper"
+  ],
+    "recipe_title": "BBQ Ribs",
+    "rating": 4.7,
+    "time_taken_minutes": 60,
+    "number_of_views": 2200,
+    "name_posted": "bbq Enthusiast",
+    "username_posted": "bbq_enthusiast",
+    "category": "Grilling",
+    "image_url": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dGVlbiUyMGdpcmxzJTIwaW1hZ2VzfGVufDB8fDB8fHwy",
+    "public_accessible_image_url": "https://plus.unsplash.com/premium_photo-1663012872761-33dd73e292cc?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8QkJRJTIwUmlic3xlbnwwfHwwfHx8MA%3D%3D"
+  },
+  {
+    "id": 15,
+    "Description": "Greek salad is a refreshing and colorful salad featuring crisp lettuce, tomatoes, cucumbers, red onions, Kalamata olives, feta cheese, and a dressing made with olive oil, lemon juice, garlic, and herbs.",
+    "Ingredients": [
+      "Lettuce (Romaine or mixed greens)",
+      "Tomatoes",
+      "Cucumbers",
+      "Red onion",
+      "Kalamata olives",
+      "Feta cheese",
+      "Olive oil",
+      "Lemon juice",
+      "Garlic",
+      "Oregano",
+      "Salt",
+      "Pepper"
+  ],
+    "recipe_title": "Greek Salad",
+    "rating": 4.5,
+    "time_taken_minutes": 20,
+    "number_of_views": 1800,
+    "name_posted": "Salad Srtist",
+    "username_posted": "salad_artist",
+    "category": "Salad",
+    "image_url": "https://images.unsplash.com/photo-1491349174775-aaafddd81942?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dGVlbiUyMGdpcmxzJTIwaW1hZ2VzfGVufDB8fDB8fHwy",
+    "public_accessible_image_url": "https://images.unsplash.com/photo-1606735584785-1848fdcaea57?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8R3JlZWslMjBTYWxhZHxlbnwwfHwwfHx8MA%3D%3D"
+  },
+  {
+    "id": 16,
+    "Description": "Beef tacos are a delicious Mexican dish consisting of seasoned ground beef cooked with spices and served in tortillas with various toppings, such as lettuce, cheese, salsa, and sour cream.",
+    "Ingredients": [
+      "Ground beef",
+      "Taco seasoning",
+      "Tortillas (corn or flour)",
+      "Lettuce",
+      "Cheese (cheddar or Mexican blend)",
+      "Salsa",
+      "Sour cream",
+      "Optional toppings: diced tomatoes, onions, cilantro"
+  ],
+    "recipe_title": "Beef Tacos",
+    "rating": 4.6,
+    "time_taken_minutes": 40,
+    "number_of_views": 2100,
+    "name_posted": "Taco Lover",
+    "username_posted": "taco_lover",
+    "category": "Mexican",
+    "image_url": "https://images.unsplash.com/photo-1564396797585-82f726d7d39a?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8dGVlbiUyMGdpcmxzJTIwaW1hZ2VzfGVufDB8fDB8fHwy",
+    "public_accessible_image_url": "https://plus.unsplash.com/premium_photo-1661730314652-911662c0d86e?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8QmVlZiUyMFRhY29zfGVufDB8fDB8fHww"
+  },
+  {
+    "id": 17,
+    "Description": "Lemon garlic shrimp pasta is a flavorful dish combining succulent shrimp with pasta, tossed in a sauce made with garlic, butter, lemon juice, herbs, and sometimes white wine.",
+    "Ingredients": [
+      "Shrimp",
+      "Pasta (linguine, spaghetti, or preferred type)",
+      "Butter",
+      "Olive oil",
+      "Garlic",
+      "Lemon juice",
+      "White wine (optional)",
+      "Fresh herbs (parsley or basil)",
+      "Salt",
+      "Pepper"
+  ],
+    "recipe_title": "Lemon Garlic Shrimp Pasta",
+    "rating": 4.9,
+    "time_taken_minutes": 35,
+    "number_of_views": 2700,
+    "name_posted": "Seafood Cuisine",
+    "username_posted": "seafood_cuisine",
+    "category": "Seafood",
+    "image_url": "https://images.unsplash.com/photo-1627067228825-0fdda0d5cf3f?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHRlZW4lMjBnaXJscyUyMGltYWdlc3xlbnwwfHwwfHx8Mg%3D%3D",
+    "public_accessible_image_url": "https://images.unsplash.com/photo-1648421331147-9fcfab29536e?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8TGVtb24lMjBHYXJsaWMlMjBTaHJpbXAlMjBQYXN0YXxlbnwwfHwwfHx8MA%3D%3D"
+  },
+  {
+    "id": 18,
+    "Description": "Chicken enchiladas are a flavorful Mexican dish made with shredded chicken rolled in corn tortillas, covered in enchilada sauce, and topped with cheese before baking until bubbly.",
+    "Ingredients": [
+      "Cooked shredded chicken",
+      "Corn tortillas",
+      "Enchilada sauce",
+      "Cheese (cheddar, Monterey Jack, or Mexican blend)",
+      "Onion",
+      "Garlic",
+      "Olive oil",
+      "Optional toppings: sour cream, cilantro, diced tomatoes"
+  ],
+    "recipe_title": "Chicken Enchiladas",
+    "rating": 4.7,
+    "time_taken_minutes": 45,
+    "number_of_views": 2400,
+    "name_posted": "Enchilada Master",
+    "username_posted": "enchilada_master",
+    "category": "Mexican",
+    "image_url": "https://images.unsplash.com/photo-1441123694162-e54a981ceba5?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHRlZW4lMjBnaXJscyUyMGltYWdlc3xlbnwwfHwwfHx8Mg%3D%3D",
+    "public_accessible_image_url": "https://images.unsplash.com/photo-1570461226513-e08b58a52c53?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q2hpY2tlbiUyMEVuY2hpbGFkYXN8ZW58MHx8MHx8fDA%3D"
+  },
+  {
+    "id": 19,
+    "Description": "Eggplant Parmesan is a vegetarian Italian dish consisting of breaded and fried slices of eggplant layered with marinara sauce, mozzarella cheese, and Parmesan cheese, then baked until golden and bubbly.",
+    "Ingredients": [
+      "Eggplant",
+      "Breadcrumbs",
+      "Eggs",
+      "Marinara sauce",
+      "Mozzarella cheese",
+      "Parmesan cheese",
+      "Olive oil",
+      "Fresh basil"
+  ],
+    "recipe_title": "Eggplant Parmesan",
+    "rating": 4.6,
+    "time_taken_minutes": 50,
+    "number_of_views": 2100,
+    "name_posted": "Eggplant Cook",
+    "username_posted": "eggplant_cook",
+    "category": "Vegetarian",
+    "image_url": "https://images.unsplash.com/photo-1615332858674-7c78a52a5367?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHRlZW4lMjBnaXJscyUyMGltYWdlc3xlbnwwfHwwfHx8Mg%3D%3D",
+    "public_accessible_image_url": "https://images.unsplash.com/photo-1696474551305-6b6e1c2af226?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RWdnJTIwY3Vycnl8ZW58MHx8MHx8fDA%3D"
+  },
+  {
+    "id": 20,
+    "Description": "Homestyle chili is a comforting stew made with ground beef, beans, tomatoes, and chili seasoning. It's a hearty dish that's perfect for cooler weather and often served with toppings such as cheese, sour cream, and green onions.",
+    "Ingredients": [
+      "Ground beef",
+      "Kidney beans",
+      "Tomato sauce",
+      "Diced tomatoes",
+      "Onion",
+      "Garlic",
+      "Chili powder",
+      "Cumin",
+      "Paprika",
+      "Salt",
+      "Pepper"
+  ],
+    "recipe_title": "Homestyle Chili",
+    "rating": 4.8,
+    "time_taken_minutes": 60,
+    "number_of_views": 2600,
+    "name_posted": "Chili Aficionado",
+    "username_posted": "chili_aficionado",
+    "category": "Soups & Stews",
+    "image_url": "https://images.unsplash.com/photo-1595784279873-62b38b5e7cd6?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z2lybHMlMjBpbWFnZXN8ZW58MHx8MHx8fDI%3D",
+    "public_accessible_image_url": "https://images.unsplash.com/photo-1698309377471-54a87740d979?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Q2hpbGklMjBjaGlja2VufGVufDB8fDB8fHww"
+  },
+  {
+    "id": 21,
+    "Description": "Spinach and feta stuffed chicken breasts are filled with a mixture of sautéed spinach, creamy feta cheese, garlic, and herbs, then baked until the chicken is cooked through and the filling is melty and flavorful.",
+    "Ingredients": [
+      "Chicken breasts",
+      "Spinach",
+      "Feta cheese",
+      "Garlic",
+      "Olive oil",
+      "Salt",
+      "Pepper",
+      "Italian seasoning"
+  ],
+    "recipe_title": "Spinach and Feta Stuffed Chicken",
+    "rating": 4.9,
+    "time_taken_minutes": 55,
+    "number_of_views": 2800,
+    "name_posted": "Stuffed Chicken Chef",
+    "username_posted": "stuffed_chicken_chef",
+    "category": "Poultry",
+    "image_url": "https://images.unsplash.com/photo-1605643044751-13cdf50ced23?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2lybHMlMjBpbWFnZXN8ZW58MHx8MHx8fDI%3D",
+    "public_accessible_image_url": "https://images.unsplash.com/photo-1698309627162-8ce7442ab855?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Q2hpbGklMjBjaGlja2VufGVufDB8fDB8fHww"
+  },
+  {
+    "id": 22,
+    "Description": "Classic beef burgers are a staple in many households, made by shaping ground beef into patties, grilling or frying until cooked to the desired doneness, and serving on burger buns with various toppings.",
+    "Ingredients": [
+      "Ground beef",
+      "Burger buns",
+      "Lettuce",
+      "Tomato slices",
+      "Onion slices",
+      "Cheese slices (cheddar, American, etc.)",
+      "Condiments (ketchup, mustard, mayo)",
+      "Pickles (optional)"
+  ],
+    "recipe_title": "Classic Beef Burgers",
+    "rating": 4.8,
+    "time_taken_minutes": 35,
+    "number_of_views": 2300,
+    "name_posted": "Burger Enthusiast",
+    "username_posted": "burger_enthusiast",
+    "category": "Burgers",
+    "image_url": "https://images.unsplash.com/photo-1611417361507-7d77bbc20a73?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Z2lybHMlMjBpbWFnZXN8ZW58MHx8MHx8fDI%3D",
+    "public_accessible_image_url": "https://images.unsplash.com/photo-1555658094-ca794654362c?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Q2xhc3NpYyUyMEJlZWYlMjBCdXJnZXJzfGVufDB8fDB8fHww"
+  }
+]
