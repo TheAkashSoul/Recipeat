@@ -24,8 +24,8 @@ const Saved = () => {
 
         <View style={{ marginTop: 10, marginBottom: 20, display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center'}}>
             {
-              data.map((item, index) => (
-                <SavedCard key={index} item={item} />
+              data.map((item) => (
+                <SavedCard key={item.id} item={item} />
               ))
             }
           </View>
