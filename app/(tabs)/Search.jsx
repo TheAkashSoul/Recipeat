@@ -5,11 +5,13 @@ import data from '../../data/data.json'
 import { useEffect, useState } from 'react';
 import { Entypo } from '@expo/vector-icons';
 import LastViewedCard from '../../components/cards/LastViewedCard'
+import ProfileCard from '../../components/cards/ProfileCard';
 
 export default function TabTwoScreen({navigation}) {
 
   const [searchHistory, setSearchHistory] = useState([]);
   const [lastViewed, setLastViewed] = useState([]);
+  const [basedOnSearch, setBasedOnSearch] = useState([]);
 
   
 
@@ -20,12 +22,16 @@ export default function TabTwoScreen({navigation}) {
     const slicedData = dataCopy.splice(1, 3);
     setSearchHistory(slicedData);
 
-    const lastViewedSlice = dataCopy.splice(5, 10);
+    const lastViewedDataCopy = [...data];
+    const lastViewedSlice = lastViewedDataCopy.splice(5, 9);
     setLastViewed(lastViewedSlice);
 
-
+    const basedOnSearchDataCopy = [...data];
+    const basedOnSearchSlice = basedOnSearchDataCopy.splice(14, 8);
+    setBasedOnSearch(basedOnSearchSlice);
 
   },[])
+
 
   const searchHistoryClear = (num) => {
 
@@ -72,24 +78,39 @@ export default function TabTwoScreen({navigation}) {
         </View>
 
         <View style={{padding: 16}}>
-          <View style={{display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between'}}>
-            <Text style={{fontWeight: '600', fontSize: 16, color: '#0F172A'}}>Last viewed</Text>
-            <TouchableOpacity>
-              <Text style={{fontWeight: '500', fontSize: 14, color: '#FB9400'}}>See All</Text>
-            </TouchableOpacity>
-          </View>
+            <View style={{display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between'}}>
+              <Text style={{fontWeight: '600', fontSize: 16, color: '#0F172A'}}>Last viewed</Text>
+              <TouchableOpacity>
+                <Text style={{fontWeight: '500', fontSize: 14, color: '#FB9400'}}>See All</Text>
+              </TouchableOpacity>
+            </View>
 
-          <View>
-            <FlatList 
-             data={lastViewed}
-             renderItem={({item}) => <LastViewedCard item={item} navigation={navigation} />}
-             keyExtractor={(item) => item.id.toString()}
-             style={{marginTop: 10}}
-             horizontal
-             showsHorizontalScrollIndicator={false}
-            />
+            <View>
+              <FlatList 
+              data={lastViewed}
+              renderItem={({item}) => <LastViewedCard item={item} navigation={navigation} />}
+              keyExtractor={(item) => item.id.toString()}
+              style={{marginTop: 10}}
+              horizontal
+              showsHorizontalScrollIndicator={false}
+              />
+            </View>
+        </View>
+
+        <View style={{padding: 16}}>
+          <Text style={{fontWeight: '600', fontSize: 16, color: '#0F172A'}}>Based on your search</Text>
+          <View style={{display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-between', marginTop: 10}}>
+            {
+              basedOnSearch.map((item) => (
+                
+                  <ProfileCard key={item.id} item={item} />
+                
+              ))
+            }
           </View>
         </View>
+
+
       </ScrollView>
     </SafeAreaView>
   );

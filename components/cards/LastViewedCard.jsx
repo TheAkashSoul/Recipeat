@@ -16,7 +16,7 @@ const LastViewedCard = ({item}) => {
 
 
   return (
-    <Pressable onPress={lastViewedItem} key={item.id} style={{borderRadius: 10, overflow: 'hidden', marginRight: 8, width: 150, borderWidth: 0.2}}>
+    <Pressable onPress={lastViewedItem} key={item.id} style={{borderRadius: 10, overflow: 'hidden', marginRight: 10, width: 150, borderWidth: 0.2}}>
             <View style={{height: 90, width: 150, borderTopLeftRadius: 10, borderTopRightRadius: 10, overflow: 'hidden', alignItems: 'center'}}>
               <Image source={{uri: item.public_accessible_image_url}} style={{height: '100%', width: '100%', objectFit: 'cover'}} />
             </View>
