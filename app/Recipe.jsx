@@ -94,7 +94,7 @@ const Recipe = () => {
       </View>
 
       <View style={{padding: 20, alignItems: 'center'}}>
-        <TouchableOpacity style={{backgroundColor: '#FB9400', padding: '16', height: 44, width: 180, alignItems: 'center', justifyContent: 'center', borderRadius: 8, display: 'flex', flexDirection: 'row', gap: 4}}>
+        <TouchableOpacity style={{backgroundColor: '#FB9400', padding: 16, height: 44, width: 180, alignItems: 'center', justifyContent: 'center', borderRadius: 8, display: 'flex', flexDirection: 'row', gap: 4}}>
           <Feather name="play-circle" size={16} color="#FFF" />
           <Text style={{fontWeight: '600', fontSize: 14, color: '#FFF'}}>Watch Video</Text>
         </TouchableOpacity>
