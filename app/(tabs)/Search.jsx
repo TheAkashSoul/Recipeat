@@ -68,9 +68,9 @@ export default function TabTwoScreen({navigation}) {
 
                 <View key={item.id} style={{display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', borderWidth: 0.2, borderRadius: 10, height: 70, marginVertical: 2}}>
                     <SearchHistoryCard item={item} />
-                    <Pressable onPress={() => searchHistoryClear(index)} style={{paddingRight: 10}}>
+                    <TouchableOpacity onPress={() => searchHistoryClear(index)} style={{paddingRight: 10}}>
                       <Entypo name="cross" size={18} color="black" />
-                    </Pressable>
+                    </TouchableOpacity>
                 </View>
               ))
             }

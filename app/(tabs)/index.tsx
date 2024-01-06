@@ -206,7 +206,8 @@ const styles = StyleSheet.create({
     gap: 10,
   },
   recipeListFeed: {
-    paddingTop: 16
+    paddingTop: 16,
+    marginTop: 16
   },
   listTitleFeed: {
     color: '#0F172A',

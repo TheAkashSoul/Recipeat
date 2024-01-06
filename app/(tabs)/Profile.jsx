@@ -1,4 +1,4 @@
-import { View, Text, SafeAreaView, StyleSheet, Pressable, ScrollView, Image } from 'react-native'
+import { View, Text, SafeAreaView, StyleSheet, Pressable, ScrollView, Image, TouchableOpacity } from 'react-native'
 import React, { useState } from 'react'
 import { Ionicons } from '@expo/vector-icons';
 import ProfileCard from '../../components/cards/ProfileCard';
@@ -49,9 +49,9 @@ const Profile = () => {
             <Text numberOfLines={1} style={{fontWeight: '400', fontSize: 14, color: '#9CA3AF'}} >@tasyaaauz</Text>
           </View>
 
-          <Pressable style={{height: 44, paddingVertical: 10, paddingHorizontal: 100, backgroundColor: '#FFF5E6', alignItems: 'center', justifyContent: 'center', borderRadius: 8, marginVertical: 20}}>
+          <TouchableOpacity style={{height: 44, paddingVertical: 10, paddingHorizontal: 100, backgroundColor: '#FFF5E6', alignItems: 'center', justifyContent: 'center', borderRadius: 8, marginVertical: 20}}>
             <Text style={{fontWeight: '500', fontSize: 14, alignItems: 'center', color: '#FB9400'}}>Manage profile</Text>
-          </Pressable>
+          </TouchableOpacity>
 
           <View style={{display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', marginVertical: 6, paddingHorizontal: 20, gap: 6}}>
             {
