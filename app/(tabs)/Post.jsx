@@ -18,7 +18,7 @@ const Post = () => {
     <SafeAreaView style={styles.post}>
       
       <View style={{paddingHorizontal: 16, paddingTop: 16}}>
-        <Text style={{fontWeight: 'bold', fontSize: 18, color: '#0F172A'}}>Recipe saved</Text>
+        <Text style={{fontWeight: 'bold', fontSize: 18, color: '#0F172A'}}>Post recipe</Text>
       </View>
 
       <ScrollView>
